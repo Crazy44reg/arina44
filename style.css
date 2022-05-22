@@ -1,6 +1,10 @@
 body {
+
     font-family: sans-serif;
     background-color: bisque;
+    display: flexbox;
+    justify-content: flex-end;
+    background-image: linear-gradient(lightblue,white);
 }
 
 h1{
@@ -8,8 +12,21 @@ h1{
     
 }
 
+.link-header {
+     background-image:linear-gradient(white,lightblue) ;
+    box-shadow: 0 10px 5px rgb(153, 76, 224), 0 20px 5px 0 mediumaquamarine;
+    transition: 0.5s  linear;
+}
 
 p{
     color: blue;
     
 }
+
+.social:hover {
+    margin: 100px;
+    transform:scale(3) ;
+    transition: 6s linear;
+    justify-content: center;
+}
+
